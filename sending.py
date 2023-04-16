@@ -5,12 +5,10 @@
 """
 import pandas as pd
 
-from algosdk.v2client import algod
 from algosdk import mnemonic
-from algosdk.encoding import is_valid_address
 from algosdk.error import WrongChecksumError
 from algosdk.future.transaction import AssetTransferTxn
-from algosdk.v2client import algod, indexer
+from algosdk.v2client import algod
 
 
 def send_reward (n, data_file, ASSET_ID, TRANSACTION_NOTE, SENDER_ADDRESS, mnemonic1, testnet=True):

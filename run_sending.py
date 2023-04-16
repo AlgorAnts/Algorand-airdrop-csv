@@ -3,10 +3,11 @@
 """
 @author: Algorants.com
 """
-import pandas as pd
 import time
-from datetime import datetime
-from run_sending import send_reward
+
+import pandas as pd
+
+from sending import send_reward
 
 #define data
 data_file = r"C:/folder/file.csv" #location csv
